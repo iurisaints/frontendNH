@@ -1,0 +1,116 @@
+<div class="eyebrows">
+  <div class="eyebrowsLeft">
+  </div>
+  
+  <div class="eyebrowsRight">
+  </div>
+</div>
+<div class="olhos">
+  
+  <div class="semicircle">
+    <div class="semicircle2"></div>
+  </div>
+  <div class="semicircleRight">
+    <div class="semicircle2"></div>
+  </div>
+  
+</div>
+
+<div class="mouth">
+</div>
+
+<div class="whiteSquares">
+  <div class="whiteSquare"></div>
+  <div class="greenSquare"></div>
+  <div class="whiteSquare"></div>
+  <div class="greenSquare"></div>
+  <div class="whiteSquare"></div>
+  <div class="greenSquare"></div>
+  <div class="whiteSquare"></div>
+</div>
+<style>
+  body{
+    background: #49C85B;
+  }
+  div.olhos{
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    position: relative;
+    top: 10px;
+    left: -3px;
+  }
+  div.eyebrows{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 23px;
+  }
+  div.eyebrowsRight{
+    width: 80px;
+    height: 40px;
+    background-color: #30230A;
+    transform: rotate(13deg);
+    position: relative;
+    bottom: 20px;
+    right: 17px;
+  }
+  div.eyebrowsLeft{
+    width: 80px;
+    height: 40px;
+    background-color: #30230A;
+    
+  }
+  div.semicircle {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background-color: #30230A;
+    border-radius: 10rem 10rem 0 0;
+  }
+  div.semicircleRight{
+    position: relative;
+    left: 80px;
+    width: 80px;
+    height: 40px;
+    background-color: #30230A;
+    border-radius: 10rem 10rem 0 0;
+  }
+  div.semicircle2 {
+    position: relative;
+    width: 35px;
+    height: 22px;
+    background-color: #49C85B;
+    border-radius: 10rem 10rem 0 0;
+    top: 20px;
+    left: 22px;
+  }
+  div.mouth{
+    width: 380px;
+    height: 72px;
+    display: flex;
+    position: fixed;
+    top: 212px;
+    left: 10px;
+    background: #30230A;
+    border-radius: 1.7rem 1.7rem 65px 65px;
+  }
+  div.whiteSquares{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 129px;
+  }
+  div.whiteSquare{
+    width: 45px;
+    height: 27px;
+    background-color: #FFFFFF;
+  }
+  div.greenSquare{
+    width: 27px;
+    height: 25px;
+    background-color: #30230A;
+  }
+</style>
